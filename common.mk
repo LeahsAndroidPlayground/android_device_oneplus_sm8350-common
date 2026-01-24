@@ -399,5 +399,8 @@ PRODUCT_PACKAGES += \
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Derp Build Type
+DERPFEST_BUILD_TYPE := Community
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
