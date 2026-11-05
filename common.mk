@@ -389,10 +389,6 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
-# Debloat stuff
-PRODUCT_PACKAGES += \
-  RemovePackages
-
 # Don't need this half-finished music player
 TARGET_INCLUDE_ACCORD := false
 
